@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.example.yushichao.lightsharedemo.DataView
+        android:id="@+id/dataview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/bt_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加速度" />
+
+    <Button
+        android:id="@+id/bt_mag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="磁场" />
+
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="162dp"
+        android:layout_height="288dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:id="@+id/take_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="250dp"
+        android:text="拍照" />
+
+
+</RelativeLayout>
